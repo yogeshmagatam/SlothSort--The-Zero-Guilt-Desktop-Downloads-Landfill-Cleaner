@@ -1,0 +1,23 @@
+watch_directories:
+  - "~/Downloads"
+  - "~/Desktop"
+
+destination_base: "~/Documents/SlothSorted"
+
+vision_model: "llama3.2-vision"
+text_model: "llama3.2:3b"
+
+categories:
+  - "Receipts_and_Invoices"
+  - "Financial_and_Tax"
+  - "Work_Documents"
+  - "Memes_and_Junk"
+  - "Wallpapers_and_Photos"
+  - "Code_and_Scripts"
+  - "Books_and_Papers"
+  - "Software_Installers"
+  - "Archives_and_Zips"
+  - "Uncategorized"
+
+dry_run: false
+max_file_size_mb: 50
